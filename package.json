@@ -1,0 +1,19 @@
+{
+  "name": "hue-desktop-ui",
+  "version": "1.0.0",
+  "description": "A web based UI for interaction with Philips Hue connected products",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node ./tasks/sass.js",
+    "sass-lint": "node ./tasks/sass-lint.js",
+    "postcss": "node ./tasks/postcss.js",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^6.0.12",
+    "sass-lint": "^1.11.1",
+    "node-sass": "^4.5.3"
+  }
+}

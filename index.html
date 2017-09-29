@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Philips Hue Dashboard UI</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+    <script src="jscolor/jscolor.js"></script>
+</head>
+
+<body>
+    <!-- Section 1 -->
+    <section class="1 centered">
+        <h1>Philips Hue UI</h1>
+        <h4>Version 1</h4>
+    </section>
+    <!-- Section 2 -->
+    <section class="2">
+        <div class="row">
+            <div class="one-third column ">
+                <h2 id="demo">Light 1</h2>
+            </div>
+            <div class="one-third column flex-row">
+                <input class="tgl tgl-skewed" id="cb3" type="checkbox" />
+                <label class="tgl-btn" data-tg-off="OFF" data-tg-on="ON" for="cb3"></label>
+
+                <div id="slidecontainer">
+
+
+                    <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                </div>
+            </div>
+            <div class="one-third column">
+                
+                <input class="jscolor" value="ab2567">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="one-third column">
+                <h2>Light 2</h2>
+            </div>
+            <div class="one-third column flex-row">
+                    <input class="tgl tgl-skewed" id="cb3" type="checkbox" />
+                    <label class="tgl-btn" data-tg-off="OFF" data-tg-on="ON" for="cb3"></label>
+    
+                    <div id="slidecontainer">
+    
+    
+                        <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+            <div class="one-third column">
+                
+                <input class="jscolor" value="ab2567">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="one-third column">
+                <h2>Light 3</h2>
+            </div>
+            <div class="one-third column flex-row">
+                    <input class="tgl tgl-skewed" id="cb3" type="checkbox" />
+                    <label class="tgl-btn" data-tg-off="OFF" data-tg-on="ON" for="cb3"></label>
+    
+                    <div id="slidecontainer">
+    
+    
+                        <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+            <div class="one-third column">
+                
+                <input class="jscolor" value="ab2567">
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
